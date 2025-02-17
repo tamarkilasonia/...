@@ -41,4 +41,32 @@ div {
   button:hover {
     background-color: #0056b3;
   }
+  .movie-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .movie-card img {
+    border-radius: 5px;
+  }
+  
+  .movie-card div {
+    margin-left: 15px;
+  }
+  
+  .movie-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .movie-card p {
+    margin: 5px 0;
+  }
+
   
