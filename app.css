@@ -82,4 +82,14 @@ div {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input, button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
   
