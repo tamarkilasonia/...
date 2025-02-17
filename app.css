@@ -1,0 +1,23 @@
+div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  
