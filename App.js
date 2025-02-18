@@ -8,7 +8,7 @@ function App() {
 
   
   const handleSearch = async () => {
-    setIsLoading(true);  // Set loading to true before fetching
+    setIsLoading(true);
     try {
       const response = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey=9073915e`);
       console.log(response.data);  
