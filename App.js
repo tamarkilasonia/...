@@ -6,7 +6,7 @@ function App() {
   const [query, setQuery] = useState('');    
   const [isLoading, setIsLoading] = useState(false); 
 
-  // Function to handle search logic
+  
   const handleSearch = async () => {
     setIsLoading(true);  // Set loading to true before fetching
     try {
