@@ -19,7 +19,7 @@ function App() {
         setMovies(response.data.Search);  
       }
     } catch (error) {
-      console.error("Error fetching data:", error);  // Handle any errors during the fetch
+      console.error("Error fetching data:", error);  
     } finally {
       setIsLoading(false);  // Set loading to false after the fetch is done
     }
