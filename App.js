@@ -14,7 +14,7 @@ function App() {
       console.log(response.data);  
       if (response.data.Response === "False") {
         alert('No movies found, please try again!');
-        setMovies([]);  // Clear any previous results
+        setMovies([]); 
       } else {
         setMovies(response.data.Search);  
       }
