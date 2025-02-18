@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'; 
 import App from './App'; 
-import reportWebVitals from './reportWebVitals'; // Optional, for performance monitoring
+import reportWebVitals from './reportWebVitals'; 
 
 // The root element in the HTML file where React will be rendered
 const root = ReactDOM.createRoot(document.getElementById('root'));
