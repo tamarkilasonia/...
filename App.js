@@ -11,7 +11,7 @@ function App() {
     setIsLoading(true);  // Set loading to true before fetching
     try {
       const response = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey=9073915e`);
-      console.log(response.data);  // Check the data in the console
+      console.log(response.data);  
       if (response.data.Response === "False") {
         alert('No movies found, please try again!');
         setMovies([]);  // Clear any previous results
