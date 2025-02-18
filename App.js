@@ -21,7 +21,7 @@ function App() {
     } catch (error) {
       console.error("Error fetching data:", error);  
     } finally {
-      setIsLoading(false);  // Set loading to false after the fetch is done
+      setIsLoading(false);  
     }
   };
 
