@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [movies, setMovies] = useState([]);  
   const [query, setQuery] = useState('');    
-  const [isLoading, setIsLoading] = useState(false); // Set up state for loading
+  const [isLoading, setIsLoading] = useState(false); 
 
   // Function to handle search logic
   const handleSearch = async () => {
