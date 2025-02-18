@@ -16,7 +16,7 @@ function App() {
         alert('No movies found, please try again!');
         setMovies([]);  // Clear any previous results
       } else {
-        setMovies(response.data.Search);  // Update movies state with search results
+        setMovies(response.data.Search);  
       }
     } catch (error) {
       console.error("Error fetching data:", error);  // Handle any errors during the fetch
