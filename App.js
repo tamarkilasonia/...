@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function App() {
-  const [movies, setMovies] = useState([]);  // Set up state to hold movie results
+  const [movies, setMovies] = useState([]);  
   const [query, setQuery] = useState('');    // Set up state to hold the search query
   const [isLoading, setIsLoading] = useState(false); // Set up state for loading
 
