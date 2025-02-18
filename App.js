@@ -30,7 +30,7 @@ function App() {
       <input
         type="text"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}  // Update query as user types
+        onChange={(e) => setQuery(e.target.value)}
         placeholder="Search for a movie"
       />
       <button onClick={handleSearch}>Search</button>  {/* Trigger handleSearch on click */}
